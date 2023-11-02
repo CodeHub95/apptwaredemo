@@ -90,7 +90,7 @@ class FeedbackController extends GetxController {
             progress.value = 0.98;
           } else {
             // When progress reaches 100%, navigate back
-            // Get.back();
+            Get.back();
           }
           startTimer();
         });
